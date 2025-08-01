@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rin's Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Nunito', sans-serif;
+      color: #3c2c23;
+      background: radial-gradient(circle at 50% 10%, #fffdf2, #d5f0cb 50%, #a2d59c);
+      background-attachment: fixed;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.75);
+      border-radius: 1.5rem;
+      margin: 2rem auto;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3rem;
+      color: #5c4033;
+    }
+
+    .pronouns {
+      font-size: 1.3rem;
+      color: #7a5e4b;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 1.5rem 2rem;
+      margin: 1rem auto;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 600px;
+      border: 2px dashed #c9eab8;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #bf5f82;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .list-item {
+      font-size: 1.1rem;
+      margin-bottom: 0.6rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6e594b;
+    }
+
+    .socials a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #5f9ea0;
+      font-weight: bold;
+    }
+
+    .cat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 80px;
+      animation: blink 5s infinite;
+    }
+
+    @keyframes blink {
+      0%, 90%, 100% { filter: brightness(1); }
+      95% { filter: brightness(0.6); }
+    }
+
+    /* Soft sparkle animation */
+    .sparkle-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image:
+        radial-gradient(#ffffff80 1px, transparent 1px),
+        radial-gradient(#ffe4e1 1px, transparent 1px);
+      background-size: 20px 20px;
+      animation: sparkle 15s linear infinite;
+      z-index: -1;
+    }
+
+    @keyframes sparkle {
+      0% { background-position: 0 0, 0 0; }
+      100% { background-position: 100% 100%, 50% 50%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sparkle-bg"></div>
+  <header>
+    <h1>Hi, I'm Rin</h1>
+    <div class="pronouns">They/Them ✨</div>
+    <p>Just a cozy femboy coding under the moonlight 🌙</p>
+  </header>
+
+  <div class="card">
+    <h2>🌱 About Me</h2>
+    <p>I love creating things with code, tending to tiny plants, exploring new places, and vibing with interesting souls.</p>
+  </div>
+
+  <div class="card">
+    <h2>💻 Hobbies</h2>
+    <ul>
+      <li class="list-item">💻 Coding cool stuff</li>
+      <li class="list-item">🌱 Gardening & plant care</li>
+      <li class="list-item">✈️ Traveling & café-hopping</li>
+      <li class="list-item">🧋 Meeting people & chatting</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🎮 Favorite Games</h2>
+    <ul>
+      <li class="list-item">🥷 Warframe</li>
+      <li class="list-item">🛡️ Marvel Rivals</li>
+      <li class="list-item">⚡ Pokémon</li>
+      <li class="list-item">🗡️ Legend of Zelda</li>
+      <li class="list-item">🌾 Harvest Moon</li>
+      <li class="list-item">🪴 Story of Seasons</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🌐 Links</h2>
+    <div class="socials">
+      <a href="#">GitHub</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Discord?</a>
+    </div>
+  </div>
+
+  <footer>
+    Made with ♡ by Rin – 2025
+  </footer>
+
+  <audio autoplay loop>
+    <source src="https://github.com/jenoix/profile/raw/refs/heads/main/theme.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+</body>
+</html>
